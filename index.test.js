@@ -1,4 +1,4 @@
-const length = require('./index').length;
+const { length } = require('./index');
 
 test('length("asdf") == 4', () => {
   expect(length('asdf')).toBe(4);
