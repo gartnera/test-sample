@@ -7,3 +7,7 @@ test('length("asdf") == 4', () => {
 test('length("asdfasdf") == 8', () => {
   expect(length('asdfasdf')).toBe(8);
 });
+
+test('length("asdfasdfasdf") == 8', () => {
+  expect(length('asdfasdfasdf')).toBe(8);
+});
